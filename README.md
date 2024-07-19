@@ -1,4 +1,5 @@
-# Disabling _Hyper-V_ on Windows 10 and 11
+# How to install
+## Disabling _Hyper-V_ on Windows 10 and 11
 
 If you need to disable Hyper-V on Windows 10 or 11, follow these steps:
 
