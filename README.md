@@ -53,7 +53,6 @@ By following these steps, you will have successfully disabled Hyper-V on your Wi
 ## Install Necessary Packages on Ubuntu
 
 To set up your Ubuntu guest machine, you need to install some essential packages. Follow these steps:
-Follow these instructions to install Docker Engine on your Ubuntu guest machine
 
 ### 1. Update Package List
 
