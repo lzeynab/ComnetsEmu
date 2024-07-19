@@ -64,3 +64,17 @@ sudo apt-get update
 ```bash
 sudo apt install curl git
 ```
+### 3. Install Docker Engine
+
+Follow these steps to install Docker Engine on your Ubuntu guest machine and verify the installation.
+
+1. **Prerequisites**
+   -Ensure that you have a supported version of Ubuntu. You should also have `sudo` privileges.
+
+## Install Docker Engine
+
+1. **Update the package index:**
+
+   ```bash
+   sudo apt-get update
+   ```
