@@ -16,7 +16,7 @@ If you need to disable Hyper-V on Windows 10 or 11, follow these steps:
    - In the list of Windows features, make sure the `Hyper-V` checkbox is **unchecked**.
    - Click `OK` to apply the changes.
 
-## 2. Modify Boot Configuration
+#### 2. Modify Boot Configuration
 
 1. **Open Command Prompt as Administrator:**
    - Press `Win + X` and select `Command Prompt (Admin)` or `Windows PowerShell (Admin)`.
@@ -34,7 +34,7 @@ If you need to disable Hyper-V on Windows 10 or 11, follow these steps:
      ```
    - Look for `hypervisorlaunchtype` to ensure it is set to `Off`.
 
-## 3. Restart Your Computer
+#### 3. Restart Your Computer
 
 - Restart your computer to apply the changes.
 
