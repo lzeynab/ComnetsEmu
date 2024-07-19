@@ -40,7 +40,7 @@ If you need to disable Hyper-V on Windows 10 or 11, follow these steps:
 
 
 
-### By following these steps, you will have successfully disabled Hyper-V on your Windows 10 or 11 system.
+By following these steps, you will have successfully disabled Hyper-V on your Windows 10 or 11 system.
 
 
 
