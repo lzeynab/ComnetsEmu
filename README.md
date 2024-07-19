@@ -44,23 +44,23 @@ By following these steps, you will have successfully disabled Hyper-V on your Wi
 
 
 
-# Install the guest machine
+## Install the guest machine
 
-## 1. Configure the ubuntu vm via vm ware.
+### 1. Configure the ubuntu vm via vm ware.
 ![Sample Image](C:\Users\Zeynab\Desktop/Picture1.png)
-## 2. Run vm and install ubuntu…
+### 2. Run vm and install ubuntu…
 
-# Install Necessary Packages on Ubuntu
+## Install Necessary Packages on Ubuntu
 
 To set up your Ubuntu guest machine, you need to install some essential packages. Follow these steps:
 Follow these instructions to install Docker Engine on your Ubuntu guest machine
 
-## 1. Update Package List
+### 1. Update Package List
 
 ```bash
 sudo apt-get update
 ```
-## 2. Install Required Packages
+### 2. Install Required Packages
 
 ```bash
 sudo apt install curl git
