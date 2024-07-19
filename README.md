@@ -38,7 +38,11 @@ If you need to disable Hyper-V on Windows 10 or 11, follow these steps:
 
 - Restart your computer to apply the changes.
 
+
+
 By following these steps, you will have successfully disabled Hyper-V on your Windows 10 or 11 system.
+
+
 
 # Install the guest machine
 
