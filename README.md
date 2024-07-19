@@ -47,7 +47,7 @@ By following these steps, you will have successfully disabled Hyper-V on your Wi
 ## Install the guest machine
 
 ### 1. Configure the ubuntu vm via vm ware.
-!(Picture1.png)
+!(Pictures/Picture1.png)
 ### 2. Run vm and install ubuntu…
 
 ## Install Necessary Packages on Ubuntu
