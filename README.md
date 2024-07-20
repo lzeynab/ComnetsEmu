@@ -78,6 +78,11 @@ Follow these steps to install Docker Engine on your Ubuntu guest machine and ver
     gnupg \
     lsb-release
      ```
+2. **Add Docker’s Official GPG Key:**
+     ```bash
+    sudo mkdir -p /etc/apt/keyrings
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+     ```
 
 
 
