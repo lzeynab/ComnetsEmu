@@ -115,4 +115,26 @@ Follow these steps to install Docker Engine on your Ubuntu guest machine and ver
    
 3. **After installation, you can start virtualbox from your application menu or by running `virtualbox` in the terminal.**
    
-### 4. Install vagrant
+### 5. Install vagrant
+
+1. **Download and install the HashiCorp GPG key:**
+    ```sh
+    wget -O- https://apt.releases.hashicorp.com/gpg | gpg --dearmor | sudo tee /usr/share/keyrings/hashicorp-archive-keyring.gpg
+    ```
+
+2. **Add the official HashiCorp Linux repository:**
+    ```sh
+    echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+    ```
+
+3. **Update and install Vagrant:**
+    ```sh
+    sudo apt update && sudo apt install vagrant
+    ```
+
+4. **Authenticate with Vagrant Cloud (replace `YOUR_VAGRANT_TOKEN` with your actual Vagrant token):**
+    ```sh
+    vagrant cloud auth login -t YOUR_VAGRANT_TOKEN
+    ```
+
+For more detailed, visit the [Vagrant Downloads page](https://www.vagrantup.com/downloads).
