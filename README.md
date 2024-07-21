@@ -107,10 +107,12 @@ Follow these steps to install Docker Engine on your Ubuntu guest machine and ver
      ```bash
     docker run hello-world
      ```
-### 4. Install virtualbox in a guest machine 
+### 4. Install Virtualbox in a guest machine 
 
 1. **Download the appropriate package for your Linux distribution from the [VirtualBox Linux Downloads](https://www.virtualbox.org/wiki/Linux_Downloads) page.**
    
 2. **Follow the instructions provided on the download page for your specific distribution to install VirtualBox.**
    
-3. **After installation, you can start VirtualBox from your application menu or by running `virtualbox` in the terminal.**
+3. **After installation, you can start virtualbox from your application menu or by running `virtualbox` in the terminal.**
+   
+### 4. Install vagrant
