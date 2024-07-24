@@ -138,3 +138,25 @@ Follow these steps to install Docker Engine on your Ubuntu guest machine and ver
     ```
 
 For more detailed, visit the [Vagrant Downloads page](https://www.vagrantup.com/downloads).
+
+### 6. Install comnetsemu
+
+1. **Clone the Repository:**
+
+First, clone the ComNetsEmu repository to your home directory.
+
+    ```sh
+    cd ~
+    git clone https://git.comnets.net/public-repo/comnetsemu.git
+    ```
+2. **Navigate to the Repository directory:**
+     ```sh
+    cd comnetsemu
+    ```
+3. **Set Up ComNetsEmu:**
+   
+Use Vagrant to set up the ComNetsEmu environment.
+
+ ```sh
+    vagrant up comnetsemu
+    ```
